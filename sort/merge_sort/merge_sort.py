@@ -37,6 +37,10 @@ def merge(left, right):
     return arr
 
 
-array = [1, 5, 7, 4, 3, 2, 1, 9, 0, 10, 43, 64]
+print("Enter the array elements:\n")
+array=list(map(int,input().split()))
+print("Array before sort:\n")
 print(array)
+print("Array after sort:\n")
 print(merge_sort(array))
+
